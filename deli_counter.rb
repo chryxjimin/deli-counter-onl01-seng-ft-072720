@@ -23,9 +23,9 @@ end
 
 def now_serving(katz_deli)
   #katz_deli = []
-  if katz_deli.size == 0
-    puts "There is nobody waiting to be served!"
-  else
+  if katz_deli.size >= 1
     puts "Currently serving #{katz_deli[0]}."
+  else
+    puts "There is nobody waiting to be served!"
    end
 end
