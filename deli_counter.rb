@@ -25,8 +25,6 @@ def now_serving(katz_deli)
   #katz_deli = []
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
-  elsif katz_deli.push(name)
-    puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
   else
     puts "Currently serving #{katz_deli[0]}."
    end
